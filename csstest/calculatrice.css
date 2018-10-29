@@ -1,0 +1,83 @@
+html
+{
+  display: flex;
+  justify-content: center;
+  background : white;
+}
+
+h1
+{
+border: 3px violet dashed;
+width: 250px;
+height: 85px;
+}
+
+button[class=inst]
+{   
+  font-weight: bold;
+    font-size: large;
+  width: 60px;
+    height: 60px;
+    border-radius: 50%; 
+  background: #6E005F;
+    color: #DEDEDE;
+    
+}
+
+button[class=op]
+{   
+  font-weight: bold;
+    font-size: large;
+  width: 60px;
+    height: 60px;
+    border-radius: 50%; 
+  background: #6E005F;
+    color: #DEDEDE;
+    
+}
+
+button[class=chif]
+{
+  font-weight: bold;
+    font-size: large;
+  width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  background: #DEDEDE;
+    color: #6E005F;
+}
+
+button[class=res]
+{
+  font-weight: bold;
+    font-size: large;
+  width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  background: #FFB3F5;
+    color: #6E005F;
+}
+
+#results
+{
+    display: flex;
+    width: 246px;
+    height: 44px;
+    color: #6E005F;
+    font-size: 36px;
+    border:none;
+    resize : none;
+   
+}
+
+#memo
+{
+    width: 246px;
+    height: 25px;
+    color: #FF8AEF;
+    font-size: 20px;
+    text-align: right;
+    border:none;
+    resize : none;
+    
+}

@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <title>JS 1</title>
+
+    <script src="../jstest/jstest.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="../csstest/calculatrice.css">
+
+</head>
+
+<body>
+
+<h1><textarea id="memo"></textarea><br><textarea id="results"></textarea></h1>
+
+<button class="inst" onclick="clearValue()" value="C">C</button>
+<button class="inst" id="plusmoins" value="+/-" onclick="plusmoins()">+/-</button>
+<button class="inst" id="pourcent" value="%" onclick="pourcent()">%</button>
+<button class="inst" id="suppr" value="DEL" onclick="del()">DEL</button><br>
+
+<button class="chif" value="7" onclick="bt('7')">7</button>
+<button class="chif" value="8" onclick="bt('8')">8</button>
+<button class="chif" value="9" onclick="bt('9')">9</button>
+
+<button class="op" id="division" value="/" onclick="bt('/')">÷</button><br>
+
+<button class="chif" value="4" onclick="bt('4')">4</button>
+<button class="chif" value="5" onclick="bt('5')">5</button>
+<button class="chif" value="6" onclick="bt('6')">6</button>
+
+<button class="op" id="multiplication" value="x" onclick="bt('*')">×</button><br>
+
+<button class="chif" value="1" onclick="bt('1')">1</button>
+<button class="chif" value="2" onclick="bt('2')">2</button>
+<button class="chif" value="3" onclick="bt('3')">3</button>
+
+<button class="op" id="soustraction" value="-" onclick="bt('-')">-</button><br>
+
+<button class="chif" value="0" onclick="bt('0')">0</button>
+
+<button class="chif" id="virgule" value="." onclick="bt('.')">.</button>
+<button class="res" id="egale" value="=" onclick="calcul()">=</button>
+<button class="op" id="somme" value="+" onclick="bt('+')">+</button><br>
+
+</body>
+
+</html>
